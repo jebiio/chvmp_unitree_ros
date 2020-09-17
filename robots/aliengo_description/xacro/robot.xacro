@@ -96,7 +96,7 @@
         </link>
     </xacro:if> 
 
-    <joint name="imu_joint" type="fixed">
+    <!-- <joint name="imu_joint" type="fixed">
         <parent link="trunk"/>
         <child link="imu_link"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -121,7 +121,7 @@
                 <box size=".001 .001 .001"/>
             </geometry>
         </collision>
-    </link>
+    </link> -->
 
     <xacro:leg name="FR" mirror="-1" mirror_dae= "False" front_hind="1" front_hind_dae="True">
         <origin rpy="0 0 0" xyz="${leg_offset_x} ${-leg_offset_y} 0"/>
