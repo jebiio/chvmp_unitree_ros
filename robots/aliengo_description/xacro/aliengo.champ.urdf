@@ -34,8 +34,8 @@
   <!-- ros_control plugin -->
   <gazebo>
     <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
-      <robotNamespace/>
-      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+      <!-- <robotNamespace></robotNamespace> -->
+      <!-- <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType> -->
     </plugin>
   </gazebo>
   <!-- Show the trajectory of trunk center. -->
@@ -1002,7 +1002,7 @@
           </horizontal>
         </scan>
         <range>
-          <min>0.35</min>
+          <min>0.2</min>
           <max>30.0</max>
           <resolution>0.01</resolution>
         </range>
