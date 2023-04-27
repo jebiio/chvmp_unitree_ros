@@ -1086,7 +1086,7 @@
     </actuator>
   </transmission>
   <joint name="camera_joint_face" type="fixed">
-    <origin rpy="3.141592653589793 0 0" xyz="0.2785 0.0125 0.0167" />
+    <origin rpy="0 0 0" xyz="0.2785 0.0125 0.0167" />
     <parent link="trunk" />
     <child link="camera_face" />
   </joint>
