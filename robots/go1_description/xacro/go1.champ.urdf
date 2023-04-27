@@ -1546,7 +1546,7 @@
   </link>
   <joint name="hokuyo_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0 0.0 0.105" />
-    <parent link="base" />
+    <parent link="trunk" />
     <child link="hokuyo_frame" />
   </joint>
   <link name="hokuyo_frame">
